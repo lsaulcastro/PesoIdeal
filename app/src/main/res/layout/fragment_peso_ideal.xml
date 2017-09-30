@@ -1,0 +1,203 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:context="com.example.sauld.pesoideal.Fragment.PesoIdealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_men"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/hom"
+            android:src="@drawable/men"
+            android:tag="Hombre" />
+
+        <ImageView
+            android:id="@+id/ic_women"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/muj"
+            android:src="@drawable/women"
+            android:tag="Mujer" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtgenero"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hom"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtasdf"
+            style="@style/text"
+            android:text="@string/peso" />
+
+        <EditText
+
+            android:id="@+id/txtPeso"
+            style="@style/editText"
+            android:inputType="numberDecimal"
+            android:maxLength="3" />
+
+        <RadioGroup
+            android:id="@+id/groupPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/kg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kgt" />
+
+            <RadioButton
+                android:id="@+id/lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/lbt" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/text"
+            android:text="@string/altura" />
+
+        <EditText
+            android:id="@+id/txtAltura"
+            style="@style/editText"
+            android:inputType="numberDecimal"
+            android:maxLength="4" />
+
+        <RadioGroup
+            android:id="@+id/groupAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/cm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/cmt" />
+
+            <RadioButton
+                android:id="@+id/ps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ps" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        style="@style/text"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/estado"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/verde"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="35sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:text="@string/pesoideal"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/pesoideal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#464646"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pesoidealLib"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:textAlignment="center"
+            android:textColor="#464646" />
+
+        <TextView
+            android:id="@+id/imcshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:textColor="#464646"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

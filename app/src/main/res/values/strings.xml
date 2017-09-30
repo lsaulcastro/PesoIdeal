@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Peso Ideal</string>
+    <string name="hom">Hombre</string>
+    <string name="muj">Mujer</string>
+    <string name="acerca">Informacion</string>
+    <string name="altura">Altura: </string>
+    <string name="peso">Peso: </string>
+    <string name="calcular">Calcular</string>
+    <string name="lbt"> Lb</string>
+    <string name="kgt"> Kg</string>
+    <string name="cmt"> Cm</string>
+    <string name="ps"> Ft</string>
+    <string name="cm">170 CM</string>
+    <string name="kg">53.2 KG</string>
+    <string name="lb">110 LB</string>
+    <string name="ft">5.6 FT</string>
+    <string name="normal">Normal</string>
+    <string name="delgadez">Delgadez</string>
+    <string name="obesidad">Obesidad</string>
+    <string name="imc">IMC: </string>
+    <string name="pesoideal">Peso Ideal: </string>
+    <string name="pesoBajo">Bajo de peso(Delgadez)</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obeso">Obeso</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tituloIMC">Calculador IMC</string>
+    <string name="titutabla">Tabla del IMC: </string>
+   <string name="inforIMC">La calculadora de IMC es la forma perfecta de calcular tu IMC, es decir, tu Índice de Masa Corporal. Nuestra herramienta es ideal para calcular el IMC de mujeres, hombres y niños. Lo único que tienes que hacer es indicar tu sexo (hombre o mujer), altura y peso actual ¡y nosotros nos encargamos del resto! Al hacer el cálculo de tu IMC no solo podrás averiguar dónde queda tu peso en un rango de distintos niveles, sino que también podrás calcular tu IMC ideal.</string>
+    <string name="tituloPso">Calculador Peso Ideal</string>
+    <string name="inforIPso">¿Alguna vez te has preguntado cuál es tu peso ideal? ¡Con la calculadora de peso ideal  lo podrás saber por fin! Aunque la cuestión del peso ideal está en debate en la comunidad médica, generalmente se dice que un peso ideal es aquel en el que puedes tener el cuerpo que deseas de forma sana y natural. Con este cálculo de peso ideal podrás por fin establecer tus metas, además de averiguar el peso ideal para el hombre, la mujer o los niños. Simplemente introduce tus datos, ¡calcular tu peso ideal nunca fue tan sencillo!</string>
+
+
+
+</resources>
