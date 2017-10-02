@@ -65,7 +65,7 @@
             android:id="@+id/txtPeso"
             style="@style/editText"
             android:inputType="numberDecimal"
-            android:maxLength="3" />
+            android:maxLength="6" />
 
         <RadioGroup
             android:id="@+id/groupPeso"
